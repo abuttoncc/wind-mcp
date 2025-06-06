@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.wind.mcpserver</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/opt/anaconda3/bin/python</string>
+        <string>/Users/james/Inspiration/wind_mcp/wind_mcp_direct_server.py</string>
+        <string>--port</string>
+        <string>8888</string>
+    </array>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+    <key>StandardErrorPath</key>
+    <string>/Users/james/Inspiration/wind_mcp/logs/wind_mcp_error.log</string>
+    <key>StandardOutPath</key>
+    <string>/Users/james/Inspiration/wind_mcp/logs/wind_mcp_output.log</string>
+    <key>WorkingDirectory</key>
+    <string>/Users/james/Inspiration/wind_mcp</string>
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/opt/anaconda3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+    </dict>
+</dict>
+</plist>

@@ -1,0 +1,7 @@
+# Wind MCP Server 依赖
+fastapi>=0.68.0
+uvicorn>=0.15.0
+pandas>=1.3.0
+fastmcp>=2.0.0
+# Wind API 通常是已安装的库，不需要通过pip安装
+# WindPy是通过官方安装程序安装的 

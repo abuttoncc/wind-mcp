@@ -1,0 +1,550 @@
+25.1.7.60032
+[34m[1m2025-06-04 17:52:41.726 [Sys] INFO  Using UTF8 Encodinglogger id=0 key=Main name=MainLog path=/Users/james/.Wind/WFT/log/TBAPI2log/ level=2 display=1 
+[0m[34m[1m2025-06-04 17:52:41.726 [TBAPI2] INFO  (VConnManager) VConnManager not  use_test_mode! (vconn_manager.cpp):22 
+[0mWind.Cosmos.Base V1.8 compiled time is Dec 18 2024, BuildType:Release, CPUArch:X64, GCC Version:Apple LLVM 13.0.0 (clang-1300.0.29.30)
+Welcome to use Wind Quant API for Python (WindPy)!
+
+COPYRIGHT (C) 2021 WIND INFORMATION CO., LTD. ALL RIGHTS RESERVED.
+IN NO CIRCUMSTANCE SHALL WIND BE RESPONSIBLE FOR ANY DAMAGES OR LOSSES CAUSED BY USING WIND QUANT API FOR Python.
+25.1.7.60032
+[34m[1m2025-06-04 17:52:55.600 [Sys] INFO  Using UTF8 Encodinglogger id=0 key=Main name=MainLog path=/Users/james/.Wind/WFT/log/TBAPI2log/ level=2 display=1 
+[0m[34m[1m2025-06-04 17:52:55.600 [TBAPI2] INFO  (VConnManager) VConnManager not  use_test_mode! (vconn_manager.cpp):22 
+[0mWind.Cosmos.Base V1.8 compiled time is Dec 18 2024, BuildType:Release, CPUArch:X64, GCC Version:Apple LLVM 13.0.0 (clang-1300.0.29.30)
+Welcome to use Wind Quant API for Python (WindPy)!
+
+COPYRIGHT (C) 2021 WIND INFORMATION CO., LTD. ALL RIGHTS RESERVED.
+IN NO CIRCUMSTANCE SHALL WIND BE RESPONSIBLE FOR ANY DAMAGES OR LOSSES CAUSED BY USING WIND QUANT API FOR Python.
+25.1.7.60032
+[34m[1m2025-06-04 17:56:36.765 [Sys] INFO  Using UTF8 Encodinglogger id=0 key=Main name=MainLog path=/Users/james/.Wind/WFT/log/TBAPI2log/ level=2 display=1 
+[0m[34m[1m2025-06-04 17:56:36.765 [TBAPI2] INFO  (VConnManager) VConnManager not  use_test_mode! (vconn_manager.cpp):22 
+[0mWind.Cosmos.Base V1.8 compiled time is Dec 18 2024, BuildType:Release, CPUArch:X64, GCC Version:Apple LLVM 13.0.0 (clang-1300.0.29.30)
+Welcome to use Wind Quant API for Python (WindPy)!
+
+COPYRIGHT (C) 2021 WIND INFORMATION CO., LTD. ALL RIGHTS RESERVED.
+IN NO CIRCUMSTANCE SHALL WIND BE RESPONSIBLE FOR ANY DAMAGES OR LOSSES CAUSED BY USING WIND QUANT API FOR Python.
+INFO:     127.0.0.1:60183 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:60185 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60183 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:60185 - "POST /mcp/ HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:60183 - "GET /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:60185 - "GET /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60187 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:60183 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60183 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:60187 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:60183 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60189 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60187 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:60183 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:60187 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60191 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60236 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:60238 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60236 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:60238 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60240 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:60242 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60240 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:60242 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60280 - "GET /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:60282 - "GET /mcp/ HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:60286 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:60288 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60286 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:60288 - "POST /mcp/ HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:60286 - "GET /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:60288 - "GET /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60286 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:60290 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:60293 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:60294 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60286 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60290 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60293 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:60294 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:60286 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60297 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:60298 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60290 - "POST /mcp/ HTTP/1.1" 200 OK
+25.1.7.60032
+[34m[1m2025-06-04 18:03:07.914 [Sys] INFO  Using UTF8 Encodinglogger id=0 key=Main name=MainLog path=/Users/james/.Wind/WFT/log/TBAPI2log/ level=2 display=1 
+[0m[34m[1m2025-06-04 18:03:07.914 [TBAPI2] INFO  (VConnManager) VConnManager not  use_test_mode! (vconn_manager.cpp):22 
+[0mWind.Cosmos.Base V1.8 compiled time is Dec 18 2024, BuildType:Release, CPUArch:X64, GCC Version:Apple LLVM 13.0.0 (clang-1300.0.29.30)
+Welcome to use Wind Quant API for Python (WindPy)!
+
+COPYRIGHT (C) 2021 WIND INFORMATION CO., LTD. ALL RIGHTS RESERVED.
+IN NO CIRCUMSTANCE SHALL WIND BE RESPONSIBLE FOR ANY DAMAGES OR LOSSES CAUSED BY USING WIND QUANT API FOR Python.
+INFO:     127.0.0.1:60629 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:60631 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60629 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:60631 - "POST /mcp/ HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:60629 - "GET /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:60631 - "GET /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60633 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:60629 - "POST /mcp/ HTTP/1.1" 200 OK
+25.1.7.60032
+[34m[1m2025-06-04 18:10:04.072 [Sys] INFO  Using UTF8 Encodinglogger id=0 key=Main name=MainLog path=/Users/james/.Wind/WFT/log/TBAPI2log/ level=2 display=1 
+[0m[34m[1m2025-06-04 18:10:04.073 [TBAPI2] INFO  (VConnManager) VConnManager not  use_test_mode! (vconn_manager.cpp):22 
+[0mWind.Cosmos.Base V1.8 compiled time is Dec 18 2024, BuildType:Release, CPUArch:X64, GCC Version:Apple LLVM 13.0.0 (clang-1300.0.29.30)
+Welcome to use Wind Quant API for Python (WindPy)!
+
+COPYRIGHT (C) 2021 WIND INFORMATION CO., LTD. ALL RIGHTS RESERVED.
+IN NO CIRCUMSTANCE SHALL WIND BE RESPONSIBLE FOR ANY DAMAGES OR LOSSES CAUSED BY USING WIND QUANT API FOR Python.
+INFO:     127.0.0.1:60955 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:60957 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60955 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:60957 - "POST /mcp/ HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:60955 - "GET /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:60957 - "GET /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60959 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:60955 - "POST /mcp/ HTTP/1.1" 200 OK
+25.1.7.60032
+[34m[1m2025-06-04 18:17:29.620 [Sys] INFO  Using UTF8 Encodinglogger id=0 key=Main name=MainLog path=/Users/james/.Wind/WFT/log/TBAPI2log/ level=2 display=1 
+[0m[34m[1m2025-06-04 18:17:29.620 [TBAPI2] INFO  (VConnManager) VConnManager not  use_test_mode! (vconn_manager.cpp):22 
+[0mWind.Cosmos.Base V1.8 compiled time is Dec 18 2024, BuildType:Release, CPUArch:X64, GCC Version:Apple LLVM 13.0.0 (clang-1300.0.29.30)
+Welcome to use Wind Quant API for Python (WindPy)!
+
+COPYRIGHT (C) 2021 WIND INFORMATION CO., LTD. ALL RIGHTS RESERVED.
+IN NO CIRCUMSTANCE SHALL WIND BE RESPONSIBLE FOR ANY DAMAGES OR LOSSES CAUSED BY USING WIND QUANT API FOR Python.
+INFO:     127.0.0.1:61503 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:61505 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61503 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:61505 - "POST /mcp/ HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:61503 - "GET /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:61505 - "GET /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61507 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:61503 - "POST /mcp/ HTTP/1.1" 200 OK
+25.1.7.60032
+[34m[1m2025-06-04 18:41:04.831 [Sys] INFO  Using UTF8 Encodinglogger id=0 key=Main name=MainLog path=/Users/james/.Wind/WFT/log/TBAPI2log/ level=2 display=1 
+[0m[34m[1m2025-06-04 18:41:04.831 [TBAPI2] INFO  (VConnManager) VConnManager not  use_test_mode! (vconn_manager.cpp):22 
+[0mWind.Cosmos.Base V1.8 compiled time is Dec 18 2024, BuildType:Release, CPUArch:X64, GCC Version:Apple LLVM 13.0.0 (clang-1300.0.29.30)
+Welcome to use Wind Quant API for Python (WindPy)!
+
+COPYRIGHT (C) 2021 WIND INFORMATION CO., LTD. ALL RIGHTS RESERVED.
+IN NO CIRCUMSTANCE SHALL WIND BE RESPONSIBLE FOR ANY DAMAGES OR LOSSES CAUSED BY USING WIND QUANT API FOR Python.
+INFO:     127.0.0.1:62389 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:62391 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62389 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:62391 - "POST /mcp/ HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:62389 - "GET /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:62391 - "GET /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62393 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:62389 - "POST /mcp/ HTTP/1.1" 200 OK
+25.1.7.60032
+[34m[1m2025-06-04 18:45:36.468 [Sys] INFO  Using UTF8 Encodinglogger id=0 key=Main name=MainLog path=/Users/james/.Wind/WFT/log/TBAPI2log/ level=2 display=1 
+[0m[34m[1m2025-06-04 18:45:36.468 [TBAPI2] INFO  (VConnManager) VConnManager not  use_test_mode! (vconn_manager.cpp):22 
+[0mWind.Cosmos.Base V1.8 compiled time is Dec 18 2024, BuildType:Release, CPUArch:X64, GCC Version:Apple LLVM 13.0.0 (clang-1300.0.29.30)
+Welcome to use Wind Quant API for Python (WindPy)!
+
+COPYRIGHT (C) 2021 WIND INFORMATION CO., LTD. ALL RIGHTS RESERVED.
+IN NO CIRCUMSTANCE SHALL WIND BE RESPONSIBLE FOR ANY DAMAGES OR LOSSES CAUSED BY USING WIND QUANT API FOR Python.
+INFO:     127.0.0.1:62801 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:62803 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62801 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:62803 - "POST /mcp/ HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:62801 - "GET /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:62803 - "GET /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62805 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:62801 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62811 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:62813 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62811 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:62813 - "POST /mcp/ HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:62811 - "GET /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:62813 - "GET /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62815 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:62811 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62975 - "GET /docs HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62975 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:63013 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63014 - "POST /mcp/ HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:63013 - "GET /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63014 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63015 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63016 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63017 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63014 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63018 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63066 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63067 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63073 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63074 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63092 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63093 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63100 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63101 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63493 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63494 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63500 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63501 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63608 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63609 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63610 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63611 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63614 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63615 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63618 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63619 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63620 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63621 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64098 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64099 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64103 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64104 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64112 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64113 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64132 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64133 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64148 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64149 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64235 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64236 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64338 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64339 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64348 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64349 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64426 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64427 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64469 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64470 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64473 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64474 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64477 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64478 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64477 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64478 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64492 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64493 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64492 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64493 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64492 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64493 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64512 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64513 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64516 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64517 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64542 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64543 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64546 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64547 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64552 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64553 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64562 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64563 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64570 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64571 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64577 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64578 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64581 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64582 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64586 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64587 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64592 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64593 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64594 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64595 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64606 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64607 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64608 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64609 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64616 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64617 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64636 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64637 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64643 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64644 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64672 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64673 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64672 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64673 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64672 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64673 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64713 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64714 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64717 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64718 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64719 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64720 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64717 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64721 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64727 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64728 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64757 - "POST /mcp/ HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:64835 - "POST /mcp/ HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:64836 - "POST /mcp/ HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:64891 - "POST /mcp/ HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:49560 - "POST /mcp/ HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:49576 - "POST /mcp/ HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:49587 - "POST /mcp/ HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:49616 - "POST /mcp/ HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:49635 - "POST /mcp/ HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:49645 - "POST /mcp/ HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:49651 - "POST /mcp/ HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:49676 - "POST /mcp/ HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:49690 - "POST /mcp/ HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:49696 - "POST /mcp/ HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:49719 - "POST /mcp/ HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:49730 - "POST /mcp/ HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:49743 - "POST /mcp/ HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:49766 - "POST /mcp/ HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:50170 - "POST /mcp/ HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:50195 - "POST /mcp/ HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:50249 - "POST /mcp/ HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:50261 - "POST /mcp/ HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:50297 - "POST /mcp/ HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:50486 - "POST /mcp/ HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:50519 - "POST /mcp/ HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:50547 - "POST /mcp/ HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:50556 - "POST /mcp/ HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:50575 - "POST /mcp/ HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:50597 - "POST /mcp/ HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:50609 - "POST /mcp/ HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:50611 - "POST /mcp/ HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:50616 - "POST /mcp/ HTTP/1.1" 500 Internal Server Error
+25.1.7.60032
+[34m[1m2025-06-04 20:27:17.930 [Sys] INFO  Using UTF8 Encodinglogger id=0 key=Main name=MainLog path=/Users/james/.Wind/WFT/log/TBAPI2log/ level=2 display=1 
+[0m[34m[1m2025-06-04 20:27:17.931 [TBAPI2] INFO  (VConnManager) VConnManager not  use_test_mode! (vconn_manager.cpp):22 
+[0mWind.Cosmos.Base V1.8 compiled time is Dec 18 2024, BuildType:Release, CPUArch:X64, GCC Version:Apple LLVM 13.0.0 (clang-1300.0.29.30)
+Welcome to use Wind Quant API for Python (WindPy)!
+
+COPYRIGHT (C) 2021 WIND INFORMATION CO., LTD. ALL RIGHTS RESERVED.
+IN NO CIRCUMSTANCE SHALL WIND BE RESPONSIBLE FOR ANY DAMAGES OR LOSSES CAUSED BY USING WIND QUANT API FOR Python.
+INFO:     127.0.0.1:50881 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50882 - "POST /mcp/ HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:50881 - "GET /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50883 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50882 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50883 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50884 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50885 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50935 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50936 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50937 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50938 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52147 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52148 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52303 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52304 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52340 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52341 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54874 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54875 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54887 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54888 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54893 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54894 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59344 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59345 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59349 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59350 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59384 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59385 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59396 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59397 - "POST /mcp/ HTTP/1.1" 200 OK
+Welcome to use Wind Quant API for Python (WindPy)!
+
+COPYRIGHT (C) 2021 WIND INFORMATION CO., LTD. ALL RIGHTS RESERVED.
+IN NO CIRCUMSTANCE SHALL WIND BE RESPONSIBLE FOR ANY DAMAGES OR LOSSES CAUSED BY USING WIND QUANT API FOR Python.
+Welcome to use Wind Quant API for Python (WindPy)!
+
+COPYRIGHT (C) 2021 WIND INFORMATION CO., LTD. ALL RIGHTS RESERVED.
+IN NO CIRCUMSTANCE SHALL WIND BE RESPONSIBLE FOR ANY DAMAGES OR LOSSES CAUSED BY USING WIND QUANT API FOR Python.
+Welcome to use Wind Quant API for Python (WindPy)!
+
+COPYRIGHT (C) 2021 WIND INFORMATION CO., LTD. ALL RIGHTS RESERVED.
+IN NO CIRCUMSTANCE SHALL WIND BE RESPONSIBLE FOR ANY DAMAGES OR LOSSES CAUSED BY USING WIND QUANT API FOR Python.
+Welcome to use Wind Quant API for Python (WindPy)!
+
+COPYRIGHT (C) 2021 WIND INFORMATION CO., LTD. ALL RIGHTS RESERVED.
+IN NO CIRCUMSTANCE SHALL WIND BE RESPONSIBLE FOR ANY DAMAGES OR LOSSES CAUSED BY USING WIND QUANT API FOR Python.
+INFO:     127.0.0.1:54391 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54392 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54398 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54399 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54493 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54494 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54565 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54566 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54679 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54680 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54763 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54764 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54825 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54826 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54830 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54831 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54900 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54901 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54945 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54946 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54976 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54978 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55055 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55056 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55128 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55129 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55142 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55143 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55254 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55255 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55262 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55263 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60606 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60607 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60608 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60609 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60610 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60611 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61252 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61253 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61725 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61726 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62297 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62298 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62773 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62774 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63265 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63266 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64101 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64102 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64595 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64596 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64597 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64598 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53969 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53970 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53971 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53972 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53969 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53973 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54279 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54280 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54281 - "POST /mcp/ HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:54282 - "GET /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54283 - "POST /mcp/ HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:54284 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54285 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54286 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54287 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54323 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54324 - "POST /mcp/ HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:54325 - "GET /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54326 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54327 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54329 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54336 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54338 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54365 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54366 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54662 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54663 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54666 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54667 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54668 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54669 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54696 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54697 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54702 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54703 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54769 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54770 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54774 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54775 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54930 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54931 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55104 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55105 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55106 - "POST /mcp/ HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:55107 - "GET /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55108 - "POST /mcp/ HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:55109 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55110 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55158 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55159 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55160 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55161 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55179 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55181 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55182 - "POST /mcp/ HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:55183 - "GET /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55184 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55188 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55190 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55365 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55371 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55416 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55417 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57116 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57117 - "POST /mcp/ HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:57118 - "GET /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57119 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57125 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57126 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57237 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57238 - "POST /mcp/ HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:57239 - "GET /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57240 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57244 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57245 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53049 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53050 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53092 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53093 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53168 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53169 - "POST /mcp/ HTTP/1.1" 200 OK
+Welcome to use Wind Quant API for Python (WindPy)!
+
+COPYRIGHT (C) 2021 WIND INFORMATION CO., LTD. ALL RIGHTS RESERVED.
+IN NO CIRCUMSTANCE SHALL WIND BE RESPONSIBLE FOR ANY DAMAGES OR LOSSES CAUSED BY USING WIND QUANT API FOR Python.
+Welcome to use Wind Quant API for Python (WindPy)!
+
+COPYRIGHT (C) 2021 WIND INFORMATION CO., LTD. ALL RIGHTS RESERVED.
+IN NO CIRCUMSTANCE SHALL WIND BE RESPONSIBLE FOR ANY DAMAGES OR LOSSES CAUSED BY USING WIND QUANT API FOR Python.
+INFO:     127.0.0.1:61893 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61894 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61895 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61896 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61893 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61897 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62050 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62051 - "POST /mcp/ HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:62052 - "GET /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62053 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62398 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62399 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62461 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62462 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62463 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62464 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62465 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62466 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62600 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62601 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62609 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62610 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62739 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62740 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63210 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63211 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65024 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65025 - "POST /mcp/ HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:65026 - "GET /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65027 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65029 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65030 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49241 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49242 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49243 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49244 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49245 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49246 - "POST /mcp/ HTTP/1.1" 200 OK
+Welcome to use Wind Quant API for Python (WindPy)!
+
+COPYRIGHT (C) 2021 WIND INFORMATION CO., LTD. ALL RIGHTS RESERVED.
+IN NO CIRCUMSTANCE SHALL WIND BE RESPONSIBLE FOR ANY DAMAGES OR LOSSES CAUSED BY USING WIND QUANT API FOR Python.
+INFO:     127.0.0.1:54060 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54061 - "POST /mcp/ HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:54062 - "GET /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54063 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54100 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54101 - "POST /mcp/ HTTP/1.1" 200 OK
