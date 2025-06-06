@@ -117,20 +117,23 @@ python src/wind_mcp_direct_server.py
 
 这意味着任何兼容 MCP 的客户端（例如 [FastMCP](https://gofastmcp.com/getting-started/welcome) 框架或大语言模型应用）都可以直接将此服务添加为工具源，从而让语言模型具备调用 Wind 金融数据的能力。
 
-### FastMCP 配置示例
+### MCP 客户端配置示例
 
-您可以在您的 `FastMCP` 客户端配置文件中添加如下配置，来连接并使用本服务提供的工具：
+您可以在任何兼容 MCP 标准的客户端（如 **Cherry Studio**, **Cursor** 等）中添加如下 JSON 配置，来连接并使用本服务提供的工具。
 
-```yaml
-mcp_server:
-  tools:
-    - name: wind_data_service
-      # 将 <your_windows_ip> 替换为运行服务端的主机IP地址
-      url: http://<your_windows_ip>:8888/sse
-      # 备注: 根据服务端启动的 --transport 参数，
-      # URL 也可以是 /streamable_http
-      description: "用于获取实时和历史金融数据的Wind工具集"
+```json
+{
+  "mcpServers": {
+    "wind_mcp": {
+      "url": "http://<your_windows_ip>:8888/mcp/",
+      "transport": "streamable-http"
+    }
+  }
+}
 ```
+**注意**: 
+- 请将 `<your_windows_ip>` 替换为实际运行 `wind_mcp_direct_server.py` 的 Windows 主机 IP 地址。
+- 服务端启动时，默认的端口是 `8888`，传输方式(`transport`)是 `sse`。请根据您启动服务时的实际参数 (`--port` 和 `--transport`) 调整此配置。`url` 的路径通常是 `/sse` 或 `/streamable_http`。
 
 ## 贡献代码
 
