@@ -58,26 +58,24 @@ python src/wind_mcp_direct_server.py --host 0.0.0.0 --port 8888
 {
   "mcpServers": {
     "wind_mcp": {
-      "url": "http://<your_windows_ip>:8888/mcp/",
+      "url": "http://localhost:<port>/mcp/",
       "transport": "streamable-http"
     }
   }
 }
 ```
-> **注意**: 请将 `<your_windows_ip>` 替换为实际运行服务器的 Windows 主机 IP 地址。
+> **注意**: 请将 `<port>` 替换为实际运行服务器的 port 地址。
 
 
 ## 鸣谢 (Acknowledgements)
 
 本项目基于以下优秀的开源项目构建，特此感谢：
--   **[WindPy](https://www.wind.com.cn/newsite/html/data_wds.html)**: 提供了强大、稳定的金融数据 API。
 -   **[FastMCP](https://github.com/GoFastMCP/fastmcp-py)**: 提供了轻量、高效的 Model Context Protocol 服务器实现。
 
 ## 主要功能
 
 - **MCP 标准实现**：作为一个标准的 MCP 服务器，可以无缝对接到任何兼容的客户端或框架。
-- **稳定的后台服务**：通过 `pyro` 远程对象协议，将 WindPy API 封装为可在后台7x24小时运行的稳定服务。
-- **简易的管理脚本**：提供 Shell 脚本，方便在 macOS/Linux 上部署和管理 Wind 服务。
+- **简易的管理脚本**：提供 Shell 脚本，方便在 macOS上部署和管理 Wind 服务。
 - **清晰的项目结构**：代码、测试、文档和配置分离，易于理解和维护。
 
 ## 目录结构
@@ -99,8 +97,6 @@ python src/wind_mcp_direct_server.py --host 0.0.0.0 --port 8888
 ├── scripts/            # 存放管理和工具脚本
 │   └── manage_wind_service.sh # (macOS) 服务管理脚本
 ├── src/                # 核心源代码
-│   ├── check_server_status.py # 检查远端服务状态的客户端
-│   ├── gangtise_mcp_simple.py # 一个简单的客户端调用示例
 │   └── wind_mcp_direct_server.py # 核心代理服务程序
 └── tests/              # 测试用例
     ├── test_cn_indicators.py
@@ -108,35 +104,5 @@ python src/wind_mcp_direct_server.py --host 0.0.0.0 --port 8888
     ├── test_simple.py
     └── test_wind_client.py
 ```
-
-## 作为 MCP (Model Context Protocol) 服务器
-
-除了作为 WindPy 的远程代理，本项目本身就是一个完全遵循 [Model Context Protocol](https://modelcontextprotocol.io/introduction) 标准的 MCP 服务器。
-
-这意味着任何兼容 MCP 的客户端（例如 [FastMCP](https://gofastmcp.com/getting-started/welcome) 框架或大语言模型应用）都可以直接将此服务添加为工具源，从而让语言模型具备调用 Wind 金融数据的能力。
-
-### MCP 客户端配置示例
-
-您可以在任何兼容 MCP 标准的客户端（如 **Cherry Studio**, **Cursor** 等）中添加如下 JSON 配置，来连接并使用本服务提供的工具。
-
-```json
-{
-  "mcpServers": {
-    "wind_mcp": {
-      "url": "http://<your_windows_ip>:8888/mcp/",
-      "transport": "streamable-http"
-    }
-  }
-}
-```
-**注意**: 
-- 请将 `<your_windows_ip>` 替换为实际运行 `wind_mcp_direct_server.py` 的 Windows 主机 IP 地址。
-- 服务端启动时，默认的端口是 `8888`。请根据您启动服务时的实际参数 (`--port`) 调整此配置。
-
-## 贡献代码
-
-欢迎通过 Pull Request 的方式为本项目贡献代码。
-
-## 许可证
 
 本项目采用 [MIT](LICENSE) 许可证。 
