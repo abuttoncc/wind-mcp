@@ -1,11 +1,12 @@
-# Wind MCP (Market Connect Proxy) Server
+# Wind MCP (Model Context Protocol) Server
 
-Wind MCP (Market Connect Proxy) Server 是一个基于 Python 的代理服务，旨在为 [WindPy](https://www.wind.com.cn/newsite/html/data_wds.html) 金融数据接口提供一个稳定、可远程调用的中间层。它解决了 WindPy 必须在 Windows GUI 环境下运行、无法直接在 Linux/macOS 服务器上部署的问题。
+Wind MCP (Model Context Protocol) Server 是一个实现了 [Model Context Protocol](https://modelcontextprotocol.io/introduction) 标准的工具服务器。其核心功能是将 [WindPy](https://www.wind.com.cn/newsite/html/data_wds.html) 金融数据接口封装成可被大语言模型 (LLM) 和兼容 MCP 的应用（如 [FastMCP](https://gofastmcp.com/getting-started/welcome)）直接调用的标准化工具。
 
-通过此项目，用户可以在一台 Windows 机器上运行 Wind 服务端，然后在任何其他机器上（如 Linux, macOS）通过网络调用，获取实时和历史金融数据，极大地提高了 Wind 数据接口的灵活性和可用性。
+通过此项目，任何兼容 MCP 的客户端都能够跨平台（Linux, macOS, Windows）调用 WindPy API，解决了 WindPy 必须在 Windows GUI 环境下运行的限制。这使得在服务器端或 AI 应用中集成实时金融数据变得简单而高效。
 
 ## 主要功能
 
+- **MCP 标准实现**：作为一个标准的 MCP 服务器，可以无缝对接到任何兼容的客户端或框架。
 - **跨平台访问**：让 Linux 和 macOS 用户能够无缝调用 WindPy API。
 - **稳定的后台服务**：通过 `pyro` 远程对象协议，将 WindPy API 封装为可在后台7x24小时运行的稳定服务。
 - **简易的管理脚本**：提供 Shell 脚本，方便在 macOS/Linux 上部署和管理 Wind 服务。
