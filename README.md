@@ -1,102 +1,119 @@
-# Wind API MCP直连服务器
+# Wind MCP (Market Connect Proxy) Server
 
-Wind API的MCP接口服务器，提供了一个直接连接Wind API的MCP服务，可通过HTTP或SSE方式调用。
+Wind MCP (Market Connect Proxy) Server 是一个基于 Python 的代理服务，旨在为 [WindPy](https://www.wind.com.cn/newsite/html/data_wds.html) 金融数据接口提供一个稳定、可远程调用的中间层。它解决了 WindPy 必须在 Windows GUI 环境下运行、无法直接在 Linux/macOS 服务器上部署的问题。
 
-## 功能特点
+通过此项目，用户可以在一台 Windows 机器上运行 Wind 服务端，然后在任何其他机器上（如 Linux, macOS）通过网络调用，获取实时和历史金融数据，极大地提高了 Wind 数据接口的灵活性和可用性。
 
-- 直接连接Wind API，不需要额外的Socket服务器
-- 支持Wind API的主要功能(wsd, wss, wsq等)
-- 提供标准MCP接口，可以与AI客户端无缝集成
-- 支持多种传输方式(streamable_http, sse)
-- 内置健康检查和诊断工具
+## 主要功能
 
-## 安装依赖
+- **跨平台访问**：让 Linux 和 macOS 用户能够无缝调用 WindPy API。
+- **稳定的后台服务**：通过 `pyro` 远程对象协议，将 WindPy API 封装为可在后台7x24小时运行的稳定服务。
+- **简易的管理脚本**：提供 Shell 脚本，方便在 macOS/Linux 上部署和管理 Wind 服务。
+- **清晰的项目结构**：代码、测试、文档和配置分离，易于理解和维护。
 
-1. 确保已安装Wind API并能正常使用
-2. 安装Python依赖:
+## 目录结构
+
+项目已经为您重构为更清晰、更标准的结构：
+
+```
+.
+├── .gitignore          # Git忽略文件配置
+├── README.md           # 项目主说明文档
+├── requirements.txt    # Python依赖库
+├── config/             # 存放配置文件
+│   └── com.wind.mcpserver.plist # (macOS) launchd服务配置示例
+├── docs/               # 存放详细的补充文档
+│   ├── README_WindPy_MCP.md
+│   ├── 调用WindPy.md
+│   └── 调用示例.md
+├── logs/               # 存放日志文件 (此目录被.gitignore忽略)
+├── scripts/            # 存放管理和工具脚本
+│   └── manage_wind_service.sh # (macOS) 服务管理脚本
+├── src/                # 核心源代码
+│   ├── check_server_status.py # 检查远端服务状态的客户端
+│   ├── gangtise_mcp_simple.py # 一个简单的客户端调用示例
+│   └── wind_mcp_direct_server.py # 核心代理服务程序
+└── tests/              # 测试用例
+    ├── test_cn_indicators.py
+    ├── test_date_functions.py
+    ├── test_simple.py
+    └── test_wind_client.py
+```
+
+## 安装与配置
+
+**环境要求**:
+- 服务端：一台安装了 Wind 金融终端的 Windows 电脑。
+- 客户端：Python 3.x 环境，macOS, Linux 或 Windows。
+
+**步骤**:
+
+1.  **克隆项目**
+    ```bash
+    git clone https://github.com/abuttoncc/wind_mcp.git
+    cd wind_mcp
+    ```
+
+2.  **创建并激活虚拟环境** (推荐)
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate  # 在 Windows 上使用 `venv\Scripts\activate`
+    ```
+
+3.  **安装依赖**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## 如何使用
+
+### 1. 在 Windows 服务端运行 Server
+
+在安装了 Wind 终端的 Windows 电脑上，打开命令行，运行以下命令启动代理服务：
 
 ```bash
-pip install -r requirements.txt
+python src/wind_mcp_direct_server.py
 ```
+服务默认会启动在 `0.0.0.0:8888`。请确保 Windows 防火墙允许该端口的入站连接。
 
-## 启动服务器
+### 2. 在客户端调用
 
-```bash
-python wind_mcp_direct_server.py
-```
+在任何一台客户端机器上，您可以通过以下方式测试和调用。
 
-可选参数:
-- `--host`: 监听地址，默认为127.0.0.1
-- `--port`: 监听端口，默认为8000
-- `--transport`: 传输方式，可选streamable_http/sse/stdio，默认为sse
-- `--reload`: 开发模式下启用热重载
+- **检查服务状态**:
+  修改 `src/check_server_status.py` 文件中的 `host` 变量为您的 Windows 服务器 IP 地址，然后运行：
+  ```bash
+  python src/check_server_status.py
+  ```
 
-例如:
-```bash
-python wind_mcp_direct_server.py --host 0.0.0.0 --port 8080 --transport streamable_http
-```
+- **运行示例**:
+  同样，修改 `src/gangtise_mcp_simple.py` 文件中的服务器 IP，然后运行：
+  ```bash
+  python src/gangtise_mcp_simple.py
+  ```
+  该脚本会演示如何通过代理获取万科（000002.SZ）的日线数据。
 
-## 使用方法
+### 3. (可选) 在 macOS 上作为服务运行
 
-启动服务器后，可以通过以下方式访问:
+如果您希望在 macOS 上部署客户端或管理服务（例如，服务本身部署在 macOS 虚拟机中），可以使用提供的脚本。
 
-1. MCP客户端接口: 
-   - streamable-http: `http://localhost:8000/streamable_http`
-   - sse: `http://localhost:8000/sse`
+1.  修改 `config/com.wind.mcpserver.plist` 文件，确保其中的路径指向您的项目路径。
+2.  使用 `scripts/manage_wind_service.sh` 脚本来管理服务：
+    ```bash
+    # 加载并启动服务
+    ./scripts/manage_wind_service.sh start
 
-2. 文档页面: `http://localhost:8000/wind/docs`
+    # 停止并卸载服务
+    ./scripts/manage_wind_service.sh stop
 
-3. 健康检查: `http://localhost:8000/wind/health`
+    # 查看服务状态
+    ./scripts/manage_wind_service.sh status
+    ```
 
-### 示例代码
+## 贡献代码
 
-```python
-from mcp import ClientSession
-from mcp.client.streamable_http import streamablehttp_client
+欢迎通过 Pull Request 的方式为本项目贡献代码。
 
-# 使用MCP的标准URL
-url = "http://localhost:8000/streamable_http"
+## 许可证
 
-async with streamablehttp_client(url) as (read, write):
-    async with ClientSession(read, write) as session:
-        # 获取上证指数最新价格
-        result = await session.call_tool("wind_wsq", {
-            "codes": "000001.SH", 
-            "fields": "rt_last"
-        })
-        print(result)
-```
-
-## 可用工具
-
-- `wind_wsq`: 获取实时行情数据
-- `wind_wsd`: 获取历史序列数据
-- `wind_wss`: 获取截面数据
-- `wind_connection_status`: 检查Wind API连接状态
-- `wind_start`: 重新启动Wind服务
-- `mcp_diagnostics`: 查看服务诊断信息
-
-## 故障排除
-
-如果服务器无法启动或MCP客户端无法连接，请检查以下事项:
-
-1. Wind API是否正常工作(使用普通Wind Python API测试)
-2. 端口是否被占用(尝试更改端口)
-3. 查看日志输出，检查错误信息
-4. 使用`/wind/health`端点检查服务器状态
-5. 尝试使用`mcp_diagnostics`工具检查MCP服务状态
-
-对于服务器启动失败问题，可尝试不同的传输方式:
-```bash
-python wind_mcp_direct_server.py --transport sse
-```
-或
-```bash
-python wind_mcp_direct_server.py --transport streamable_http
-```
-
-## 注意事项
-
-- 服务器默认只监听本地地址(127.0.0.1)，如需从其他机器访问，请使用`--host 0.0.0.0`
-- Wind API需要在Windows环境下运行，并且需要有有效的Wind账号
-- 部分高级功能(如订阅、回调等)暂未实现 
+本项目采用 [MIT](LICENSE) 许可证。 
