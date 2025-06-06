@@ -59,7 +59,10 @@ WIND_DATE_FUNCTIONS = {
         "name": "获取区间内日期序列",
         "description": "获取指定时间区间内的日期序列",
         "usage": "w.tdays(beginTime, endTime, options)",
-        "example": "w.tdays('2023-01-01', '2023-12-31', 'Days=Trading;TradingCalendar=SSE')"
+        "example": (
+            "w.tdays('2023-01-01', '2023-12-31', "
+            "'Days=Trading;TradingCalendar=SSE')"
+        )
     },
     "tdaysoffset": {
         "name": "日期偏移函数",
@@ -81,8 +84,8 @@ WIND_DATE_PARAMS = {
     "Days": {
         "description": "日期类型",
         "options": {
-            "Trading": "交易日", 
-            "Weekdays": "工作日", 
+            "Trading": "交易日",
+            "Weekdays": "工作日",
             "Alldays": "日历日"
         },
         "default": "Trading"
@@ -91,11 +94,11 @@ WIND_DATE_PARAMS = {
     "Period": {
         "description": "周期类型",
         "options": {
-            "D": "天", 
-            "W": "周", 
-            "M": "月", 
-            "Q": "季度", 
-            "S": "半年", 
+            "D": "天",
+            "W": "周",
+            "M": "月",
+            "Q": "季度",
+            "S": "半年",
             "Y": "年"
         },
         "default": "D"
@@ -174,8 +177,8 @@ WIND_DATE_MACROS = {
         "examples": [
             "ED-1Y (一年前)",
             "IPO (上市首日)",
-            "RYF (本年初)",
-            "LYE (上年末)"
+            "RYF": "本年初",
+            "LYE": "上年末"
         ]
     }
 }
@@ -766,7 +769,9 @@ def main():
         logger.info("启动FastMCP服务器...")
         
         # 使用明确的HTTP传输和路径
-        logger.info(f"使用FastMCP 2.6运行，请访问 http://{args.host}:{args.port}{mcp_path}")
+        msg = (f"使用FastMCP 2.6运行，"
+               f"请访问 http://{args.host}:{args.port}{mcp_path}")
+        logger.info(msg)
         mcp.run(
             transport="streamable-http",
             host=args.host,

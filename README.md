@@ -2,7 +2,7 @@
 
 Wind MCP (Model Context Protocol) Server 是一个实现了 [Model Context Protocol](https://modelcontextprotocol.io/introduction) 标准的工具服务器。其核心功能是将 [WindPy](https://www.wind.com.cn/newsite/html/data_wds.html) 金融数据接口封装成可被大语言模型 (LLM) 和兼容 MCP 的应用（如 [FastMCP](https://gofastmcp.com/getting-started/welcome)）直接调用的标准化工具。
 
-通过此项目，任何兼容 MCP 的客户端都能够跨平台（Linux, macOS, Windows）调用 WindPy API，解决了 WindPy 必须在 Windows GUI 环境下运行的限制。这使得在服务器端或 AI 应用中集成实时金融数据变得简单而高效。
+通过此项目，任何兼容 MCP 的客户端都能够跨平台（Linux, macOS, Windows）调用 WindPy API，解决了 WindPy 在通
 
 ## 主要功能
 
@@ -133,7 +133,25 @@ python src/wind_mcp_direct_server.py
 ```
 **注意**: 
 - 请将 `<your_windows_ip>` 替换为实际运行 `wind_mcp_direct_server.py` 的 Windows 主机 IP 地址。
-- 服务端启动时，默认的端口是 `8888`，传输方式(`transport`)是 `sse`。请根据您启动服务时的实际参数 (`--port` 和 `--transport`) 调整此配置。`url` 的路径通常是 `/sse` 或 `/streamable_http`。
+- 服务端启动时，默认的端口是 `8888`。请根据您启动服务时的实际参数 (`--port`) 调整此配置。
+
+## 可用工具 (Tools)
+
+本服务提供了一系列工具，用于获取 Wind 数据和辅助功能。
+
+### 基础工具
+
+-   `get_today_date(fmt: str = "%Y%m%d")`: 获取服务器当前日期。
+-   `search_windpy_doc(query: str)`: 在 WindPy 文档中搜索指定内容。
+
+### Wind 数据工具
+
+-   `wind_wsd(codes, fields, beginTime, endTime, options)`: 获取日时间序列数据。
+-   `wind_wss(codes, fields, options)`: 获取日截面数据。
+-   `wind_wses(codes, fields, beginTime, endTime, options)`: 获取板块日序列数据。
+-   `wind_tdays(beginTime, endTime, options)`: 获取区间内日期序列。
+-   `wind_tdaysoffset(offset, beginTime, options)`: 获取偏移后的日期。
+--   `wind_tdayscount(beginTime, endTime, options)`: 获取区间内日期数量。
 
 ## 贡献代码
 
