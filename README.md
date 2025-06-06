@@ -1,4 +1,4 @@
-# Wind MCP Server: 让大模型拥有 Wind API 的超能力
+# Wind MCP Server: 让大模型拥有 Wind API能力
 
 本项目是一个实现了 [Model Context Protocol](https://modelcontextprotocol.io/introduction) (MCP) 标准的工具服务器。
 
