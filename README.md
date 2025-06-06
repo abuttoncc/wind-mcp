@@ -70,7 +70,7 @@ python src/wind_mcp_direct_server.py --host 0.0.0.0 --port 8888
 ## 鸣谢 (Acknowledgements)
 
 本项目基于以下优秀的开源项目构建，特此感谢：
--   **[FastMCP](https://github.com/GoFastMCP/fastmcp-py)**: 提供了轻量、高效的 Model Context Protocol 服务器实现。
+-   **[FastMCP](https://github.com/jlowin/fastmcp)**: 提供了轻量、高效的 Model Context Protocol 服务器实现。
 
 ## 主要功能
 
