@@ -110,6 +110,27 @@ python src/wind_mcp_direct_server.py
     ./scripts/manage_wind_service.sh status
     ```
 
+## 作为 MCP (Model Context Protocol) 服务器
+
+除了作为 WindPy 的远程代理，本项目本身就是一个完全遵循 [Model Context Protocol](https://modelcontextprotocol.io/introduction) 标准的 MCP 服务器。
+
+这意味着任何兼容 MCP 的客户端（例如 [FastMCP](https://gofastmcp.com/getting-started/welcome) 框架或大语言模型应用）都可以直接将此服务添加为工具源，从而让语言模型具备调用 Wind 金融数据的能力。
+
+### FastMCP 配置示例
+
+您可以在您的 `FastMCP` 客户端配置文件中添加如下配置，来连接并使用本服务提供的工具：
+
+```yaml
+mcp_server:
+  tools:
+    - name: wind_data_service
+      # 将 <your_windows_ip> 替换为运行服务端的主机IP地址
+      url: http://<your_windows_ip>:8888/sse
+      # 备注: 根据服务端启动的 --transport 参数，
+      # URL 也可以是 /streamable_http
+      description: "用于获取实时和历史金融数据的Wind工具集"
+```
+
 ## 贡献代码
 
 欢迎通过 Pull Request 的方式为本项目贡献代码。
